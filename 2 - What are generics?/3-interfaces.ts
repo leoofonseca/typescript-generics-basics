@@ -14,7 +14,7 @@ const withoutGenerics: SampleInterface = {
 export interface SampleInterfaceWithGenerics {
   id: number;
   label: string;
-  value: T;
+  value: any;
 }
 
 const withGenerics: SampleInterfaceWithGenerics = {
